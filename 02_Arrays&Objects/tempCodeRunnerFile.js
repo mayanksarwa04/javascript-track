@@ -1,5 +1,2 @@
-console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySum])
-// console.log(typeof(JsUser[mySum]))
+const obj4 = Object.assign({}, obj1,obj2,obj3);
+// const obj4 = {...obj1,...obj2};

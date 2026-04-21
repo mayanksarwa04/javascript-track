@@ -1,50 +1,50 @@
-// let items =[250,645,300,900,50]
+let items =[250,645,300,900,50]
 
 
-// let i=0;
-// for (let val of items){
+let i=0;
+for (let val of items){
 
-//     let offer = val/10;
-//     items[i] -= offer
-//     console.log(`value after offer ${items[i]} `)
-//     i++
-// }
+    let offer = val/10;
+    items[i] -= offer
+    console.log(`value after offer ${items[i]} `)
+    i++
+}
 
-// for (let i=0; i < items.length;i++){
-//     let offer = items[i]/10;
-//     items[i] -=offer;
-// }
+for (let i=0; i < items.length;i++){
+    let offer = items[i]/10;
+    items[i] -=offer;
+}
 
-// for (let i=0; i < items.length; i++){
-//     console.log(`value after items ${items[i]}`)
-// }
+for (let i=0; i < items.length; i++){
+    console.log(`value after items ${items[i]}`)
+}
 
-// const myArray = [0,1,2,3,4,5,6,7,8,9];;
+const myArray = [0,1,2,3,4,5,6,7,8,9]
 
-// myArray.push(10); //[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// myArray.pop(); //[0, 1, 2, 3, 4, 5, 6, 7, 8]
-// myArray.toString(); //
-// myArray.unshift(10) //[10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-// myArray.shift() //[1, 2, 3, 4, 5, 6, 7, 8, 9]
-// console.log(myArray.slice(1,3)); //[ 1, 2 ]
-// myArray.splice(2,3,101,102); //[0, 1, 101, 102, 5, 6, 7, 8, 9]
-// myArray.splice(2,0,100) // TO ADD [0, 1, 100, 2, 3, 4, 5, 6, 7, 8, 9]
-// myArray.splice(2,1)  //TO DELETE [0, 1, 3, 4, 5, 6, 7, 8, 9]
-// myArray.splice(3,1,101) //TO REPLACE [0, 1, 2, 101, 4, 5, 6, 7, 8, 9]
-
-
-// console.log(myArray.includes(9)) // true
-// console.log(myArray.indexOf(3)) // 3
-
-// const newArr = myArray.join()
-
-// console.log(myArray);
-// console.log(newArr); // 0,1,2,3,4,5,6,7,8,9
+myArray.push(10); //[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+myArray.pop(); //[0, 1, 2, 3, 4, 5, 6, 7, 8]
+myArray.toString(); //
+myArray.unshift(10) //[10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+myArray.shift() //[1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(myArray.slice(1,3)); //[ 1, 2 ]
+myArray.splice(2,3,101,102); //[0, 1, 101, 102, 5, 6, 7, 8, 9]
+myArray.splice(2,0,100) // TO ADD [0, 1, 100, 2, 3, 4, 5, 6, 7, 8, 9]
+myArray.splice(2,1)  //TO DELETE [0, 1, 3, 4, 5, 6, 7, 8, 9]
+myArray.splice(3,1,101) //TO REPLACE [0, 1, 2, 101, 4, 5, 6, 7, 8, 9]
 
 
-//INTERVIEW QUESTION ---
+console.log(myArray.includes(9)) // true
+console.log(myArray.indexOf(3)) // 3
 
-//DIFFRENCE BETWEEN SLICE AND SPLICE
+const newArr = myArray.join()
+
+console.log(myArray);
+console.log(newArr); // 0,1,2,3,4,5,6,7,8,9
+
+
+INTERVIEW QUESTION ---
+
+DIFFRENCE BETWEEN SLICE AND SPLICE
 
 
 const myArray2 = [0,1,2,3,4,5];
